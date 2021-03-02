@@ -1,0 +1,9 @@
+{
+  "store.custom#mipaginita": {
+    "blocks": ["flex-layout.row#mi-layout"]
+  },
+  "flex-layout.row#mi-layout": {
+    "children": ["mi-bloque-componente"],
+    "title": "Componente superior"
+  }
+}

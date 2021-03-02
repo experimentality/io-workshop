@@ -2,14 +2,14 @@
     "store.home": {
         "blocks": [
             "mi-bloque-schema",
-            "flex-layout.row#mi-layout",
+            "flex-layout.row#mi-layout-1",
             "flex-layout.row#mi-layout-2",
             "mi-bloque-componente#home",
             "mi-bloque-funcional#home",
             "flex-layout.row#banner"
         ]
     },
-    "flex-layout.row#mi-layout": {
+    "flex-layout.row#mi-layout-1": {
         "children": ["mi-bloque-componente"],
         "title":"Componente superior"
     },
