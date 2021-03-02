@@ -1,0 +1,15 @@
+{
+  "vendor": "experimentality",
+  "name": "app",
+  "version": "0.1.0",
+  "builders": {
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.store": "2.x"
+  },
+  "scripts": {
+    "publish": "vtex publish --verbose"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

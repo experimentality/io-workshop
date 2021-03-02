@@ -1,0 +1,17 @@
+{
+  "mi-bloque-componente": {
+    "component": "MiBloqueComponente",
+    "composition": "children",
+    "allowed": "*"
+  },
+  "mi-bloque-funcional": {
+    "component": "MiBloqueFuncional",
+    "composition": "children",
+    "allowed": "*"
+  },
+  "mi-bloque-schema": {
+    "component": "MiBloqueSchema",
+    "composition": "children",
+    "allowed": "*"
+  }
+}

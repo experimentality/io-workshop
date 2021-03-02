@@ -1,0 +1,53 @@
+{
+    "store.home": {
+        "blocks": [
+            "mi-bloque-schema",
+            "flex-layout.row#mi-layout",
+            "flex-layout.row#mi-layout-2",
+            "mi-bloque-componente#home",
+            "mi-bloque-funcional#home",
+            "flex-layout.row#banner"
+        ]
+    },
+    "flex-layout.row#mi-layout": {
+        "children": ["mi-bloque-componente"],
+        "title":"Componente superior"
+    },
+    "flex-layout.row#mi-layout-2":{
+        "children": ["flex-layout.row#mi-columna-1","flex-layout.row#mi-columna-2"],
+        "props": {
+            "blockClass": "miLayout"
+        },
+        "title":"Componente inferior"
+    },
+
+    "flex-layout.row#mi-columna-1":{
+        "children": ["mi-bloque-componente"]
+    },
+    "flex-layout.row#mi-columna-2":{
+        "children": ["mi-bloque-componente"]
+    },
+    "mi-bloque-componente#home":{
+        "props":{
+            "text": "Experimentality"
+        },
+        "title":"Componente inferior"
+    },
+    "mi-bloque-funcional#home":{
+        "children": ["mi-bloque-componente"],
+        "props":{
+            "text": "ja"
+        },
+        "title":"Componente Funcional"
+    },
+    "flex-layout.row#banner": {
+        "children": ["image#banner"],
+        "title":"Componente inferior"
+    },
+    "image#banner": {
+        "props": {
+          "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png"
+        },
+        "title":"banner inferior"
+    }
+}

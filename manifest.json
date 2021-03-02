@@ -1,0 +1,22 @@
+{
+  "name": "reviews-and-ratings",
+  "vendor": "vtex",
+  "version": "2.7.2",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x",
+    "styles": "2.x"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.store-image": "0.x",
+    "vtex.store-components": "3.x",
+    "vtex.rich-text": "0.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.list-context": "0.x"
+  },
+  "scripts": {
+    "publish": "vtex publish --verbose"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
